@@ -46,7 +46,7 @@ public class StreamablePolicy implements Policy {
     }
 
     @Override
-    public ReadWriteStream<?> onResponseContent(Object... args) throws PolicyException {
+    public ReadWriteStream<Buffer> onResponseContent(Object... args) throws PolicyException {
         return null;
     }
 
